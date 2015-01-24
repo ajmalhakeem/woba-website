@@ -1,0 +1,164 @@
+/*******************NAVIGATION************************/
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px; 
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav .container {
+  margin-top: 10px;
+}
+
+
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+/******************************************************/
+/*******************JUMBOTRON**************************/
+.jumbotron {
+  background-image:url('http://cloud-4.steampowered.com/ugc/75751075890374340/343685837A09629CBA0AEF2770C0C7D8AC20CAF5/');
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.jumbotron h1 {
+	color: white;
+	font-family: sans-serif;
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+  padding-right: 3px;
+  padding-left: 3px;
+  text-align: center;
+}
+
+.jumbotron p {
+	color: white;
+  padding-bottom: 14px;
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+  padding-right: 3px;
+  padding-left: 3px;  
+  text-align: center;
+}
+
+.jumbotron input { 
+  border-radius: 2px;
+  background: -webkit-linear-gradient(top,#333333,#333333);
+  border: 1px solid rgba(0,0,0,0.1);
+  color: white;
+}
+
+.jumbotron input:hover {
+  background: -webkit-linear-gradient(top,#dcdcdc,#d9d9d9);
+
+}
+
+/******************************************************/
+/*******************INFORMATION*************************/
+
+.info {
+  display: block;
+}
+
+.info p span {
+  text-transform: none;
+  font-weight: 400;
+
+}
+
+
+.info p {
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: center;
+}
+
+.info h4 {
+  text-align: center;
+}
+
+
+.infobottom p span {
+  text-transform: none;
+  font-weight: 400;
+
+}
+
+
+.infobottom p {
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: center;
+}
+
+.infobottom h4 {
+  text-align: center;
+}
+
+.col-md-6 {
+  height: 145px;
+  
+}
+
+
+/*******************ABOUT US***********************/
+
+.about p {
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 20px;  
+}
+
+.about {
+  margin-top: 25px;
+}
+
+.about h4 {
+  margin-bottom: 20px;
+}
+
+/******************************************************/
+/*******************SIDEBAR*************************/
+
+.sidebar ul li {
+  color: #5a5a5a;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 10px; 
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: none;
+  width: 170px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin-top: 35px;
+}
+
+.sidebar ul li:hover {
+  border-left: 1px solid #5a5a5a;
+}
+
+
+
+
+
+
+
+
