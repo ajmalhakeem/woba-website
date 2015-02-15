@@ -10,7 +10,23 @@
 }
 
 .nav li {
-  display: inline;
+  display: inline;  
+}
+
+.pull-left > li > ul {
+  padding: 0px 0px;
+  border-radius: 3px;
+  background: white;
+  margin: 0 65px;
+
+}
+
+.pull-left > li > ul > li  {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  display: block;
+  padding: 5px 0px;
 }
 
 .nav .container {
@@ -23,16 +39,21 @@
   text-decoration: underline;
 }
 
+.nav {
+  background-color: #eee;
+}
 
 
 /******************************************************/
 /*******************JUMBOTRON**************************/
 .jumbotron {
-  background-image:url('http://cloud-4.steampowered.com/ugc/75751075890374340/343685837A09629CBA0AEF2770C0C7D8AC20CAF5/');
+  background-color: #5a5a5a;
+  background-image:url('../markup/background.jpg');
   height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
   text-shadow: 2px 2px 4px #000000;
+  text-align: center;
 }
 
 .jumbotron h1 {
@@ -91,27 +112,12 @@
   text-align: center;
 }
 
-
-.infobottom p span {
-  text-transform: none;
-  font-weight: 400;
-
+.info .col-lg-12 {
+  margin-bottom: 12px;
 }
 
-
-.infobottom p {
-  line-height: 1.5;
-  font-weight: 300;
-  text-align: center;
-}
-
-.infobottom h4 {
-  text-align: center;
-}
-
-.col-md-6 {
-  height: 145px;
-  
+.info .col-lg-6 {
+  margin-bottom: 30px;
 }
 
 
@@ -121,7 +127,7 @@
   font-weight: 300;
   text-decoration: none;
   font-size: 16px;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 
 .about {
@@ -130,6 +136,10 @@
 
 .about h4 {
   margin-bottom: 20px;
+}
+
+.about .col-md-9 {
+  padding: 0px 70px;
 }
 
 /******************************************************/
@@ -155,6 +165,15 @@
   border-left: 1px solid #5a5a5a;
 }
 
+/*******************FORMPAGE***********************/
+
+form {
+  width: 30%;
+  margin:auto;
+  margin-top: 50px;
+}
+
+/******************************************************/
 
 
 
